@@ -1,0 +1,19 @@
+{
+  "name": "framework_dz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script1.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chart.js": "^4.4.4"
+  },
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
