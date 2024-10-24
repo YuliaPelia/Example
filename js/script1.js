@@ -17,15 +17,15 @@ window.addEventListener('keydown', (e) => {
     e.preventDefault()
     const pressedKey = e.key.toLowerCase()
     if(pressedKey === arrKeys[currentKeyIndex]) {
-        success({text: 'True👍'})
+        success({text: 'True👍', delay: 500})
         generateKey()
     } else {
-        error({text: 'False🫤'})
+        error({text: 'False🫤', delay: 500})
     }
 })
 
 const gameBtn = document.querySelector('.start')
 gameBtn.addEventListener('click', () => {
-    info({text: 'The game started😊'})
+    info({text: 'The game started😊', delay: 500})
     generateKey()
 })

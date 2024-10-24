@@ -4,7 +4,9 @@
   "description": "",
   "main": "script1.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,7 @@
   },
   "devDependencies": {
     "@pnotify/core": "^5.2.0",
+    "gh-pages": "^6.2.0",
     "parcel-bundler": "^1.12.5"
   }
 }
