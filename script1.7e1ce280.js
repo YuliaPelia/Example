@@ -7,4 +7,4 @@ var t,e=arguments[3];!function(e,n){"object"==typeof exports&&"undefined"!=typeo
 },{}],"yTJL":[function(require,module,exports) {
 "use strict";var e=require("@pnotify/core");require("@pnotify/core/dist/BrightTheme.css"),require("@pnotify/core/dist/PNotify.css");var t,r=["a","b","c","d","e","f","g","h","i","j","k"],o=document.querySelector("#key"),n=function(){t=Math.floor(Math.random()*r.length),o.textContent=r[t]};window.addEventListener("keydown",function(o){o.preventDefault(),o.key.toLowerCase()===r[t]?((0,e.success)({text:"True👍",delay:500}),n()):(0,e.error)({text:"False🫤",delay:500})});var i=document.querySelector(".start");i.addEventListener("click",function(){(0,e.info)({text:"The game started😊",delay:500}),n()});
 },{"@pnotify/core":"GeCc","@pnotify/core/dist/BrightTheme.css":"PZnl","@pnotify/core/dist/PNotify.css":"PZnl"}]},{},["yTJL"], null)
-//# sourceMappingURL=/script1.7e1ce280.js.map
+//# sourceMappingURL=example/script1.7e1ce280.js.map
